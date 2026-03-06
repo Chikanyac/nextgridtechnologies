@@ -880,3 +880,59 @@ margin-bottom:10px;
 transform:translateY(-6px);
 background:rgba(255,255,255,0.08);
 }
+
+/* CALL TO ACTION */
+
+.cta-section{
+background:linear-gradient(135deg,#020617,#0f172a);
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.cta-section h2{
+font-size:34px;
+margin-bottom:20px;
+}
+
+.cta-section p{
+max-width:650px;
+margin:auto;
+margin-bottom:35px;
+color:#cbd5f5;
+}
+
+.cta-buttons{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.cta-btn{
+background:#38bdf8;
+color:#020617;
+padding:14px 28px;
+border-radius:6px;
+font-weight:bold;
+text-decoration:none;
+transition:.3s;
+}
+
+.cta-btn:hover{
+background:#0ea5e9;
+}
+
+.cta-phone{
+border:1px solid #38bdf8;
+padding:14px 28px;
+border-radius:6px;
+color:#38bdf8;
+text-decoration:none;
+transition:.3s;
+}
+
+.cta-phone:hover{
+background:#38bdf8;
+color:#020617;
+}
