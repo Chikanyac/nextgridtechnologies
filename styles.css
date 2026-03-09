@@ -1467,3 +1467,9 @@ transition: 0.2s ease;
 background: #0078d4;
 color: white;
 }
+
+.areas-list a{
+text-decoration: none;
+color: inherit;
+display: block;
+}
