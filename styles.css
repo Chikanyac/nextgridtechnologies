@@ -1787,3 +1787,18 @@ color:#2563eb;
     width: 100%;
   }
 }
+/* FORCE LAYOUT FIX */
+.content-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 40px;
+}
+
+.sidebar {
+  width: 260px !important;
+  flex-shrink: 0;
+}
+
+.content-area {
+  flex: 1 !important;
+}
